@@ -19,5 +19,6 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <mapping class="com.olzumzum.weblab4.server.model.entities.User"/>
+        <mapping class="com.olzumzum.weblab4.server.model.entities.ItemAssortment"/>
     </session-factory>
 </hibernate-configuration>

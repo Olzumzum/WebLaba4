@@ -7,24 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d496744-72b2-42ea-87d3-0ab3b580e457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footerMenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/ProductShowServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/AssortmentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/entities/ItemAssortment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ItemProductTable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assortment_form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cake_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search_form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Authorization.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Authorization.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebLab4/Authorization.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/Authorization.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebLab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebLab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/resources/hibernate.cfg.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +68,13 @@
         <item name="laba2@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="laba2: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="laba2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="laba2: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="AssortmentCake: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -111,9 +129,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.olzumzum.weblab4.server.model.DAO" />
       <recent name="com.olzumzum.weblab4.server.controller" />
+      <recent name="com.olzumzum.weblab4.server.model.DAO" />
       <recent name="com.olzumzum.weblab4.server.model.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +143,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WebLab4_war_exploded/authorization.html" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WebLab4_war_exploded/cake_page.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="WebLab4:war exploded">
@@ -232,7 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576986122077</updated>
-      <workItem from="1576986128043" duration="20719000" />
+      <workItem from="1576986128043" duration="23877000" />
     </task>
     <servers />
   </component>
@@ -248,14 +269,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1577008439454" />
-    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577024611929">
+    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577025440464">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577024611929" />
-    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1577011838480">
+    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577025440464" />
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1577025919356">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577011838480" />
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577025919356" />
     <state x="596" y="222" width="784" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577005729203">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -264,54 +285,54 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577008935954" />
-    <state width="1320" height="190" key="GridCell.Tab.0.bottom" timestamp="1577024634803">
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom" timestamp="1577027729608">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634803" />
-    <state width="1320" height="190" key="GridCell.Tab.0.center" timestamp="1577024634800">
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729608" />
+    <state width="1320" height="190" key="GridCell.Tab.0.center" timestamp="1577027729607">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634800" />
-    <state width="1320" height="190" key="GridCell.Tab.0.left" timestamp="1577024634798">
+    <state width="1320" height="190" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729607" />
+    <state width="1320" height="190" key="GridCell.Tab.0.left" timestamp="1577027729607">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634798" />
-    <state width="1320" height="190" key="GridCell.Tab.0.right" timestamp="1577024634801">
+    <state width="1320" height="190" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729607" />
+    <state width="1320" height="190" key="GridCell.Tab.0.right" timestamp="1577027729607">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634801" />
-    <state width="1320" height="190" key="GridCell.Tab.1.bottom" timestamp="1577024634808">
+    <state width="1320" height="190" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729607" />
+    <state width="1320" height="190" key="GridCell.Tab.1.bottom" timestamp="1577027729410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634808" />
-    <state width="1320" height="190" key="GridCell.Tab.1.center" timestamp="1577024634806">
+    <state width="1320" height="190" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729410" />
+    <state width="1320" height="190" key="GridCell.Tab.1.center" timestamp="1577027729409">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634806" />
-    <state width="1320" height="190" key="GridCell.Tab.1.left" timestamp="1577024634804">
+    <state width="1320" height="190" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729409" />
+    <state width="1320" height="190" key="GridCell.Tab.1.left" timestamp="1577027729408">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634804" />
-    <state width="1320" height="190" key="GridCell.Tab.1.right" timestamp="1577024634807">
+    <state width="1320" height="190" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729408" />
+    <state width="1320" height="190" key="GridCell.Tab.1.right" timestamp="1577027729409">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634807" />
-    <state width="1320" height="190" key="GridCell.Tab.2.bottom" timestamp="1577024634814">
+    <state width="1320" height="190" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729409" />
+    <state width="1320" height="190" key="GridCell.Tab.2.bottom" timestamp="1577027729410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634814" />
-    <state width="1320" height="190" key="GridCell.Tab.2.center" timestamp="1577024634812">
+    <state width="1320" height="190" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729410" />
+    <state width="1320" height="190" key="GridCell.Tab.2.center" timestamp="1577027729410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634812" />
-    <state width="1320" height="190" key="GridCell.Tab.2.left" timestamp="1577024634811">
+    <state width="1320" height="190" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729410" />
+    <state width="1320" height="190" key="GridCell.Tab.2.left" timestamp="1577027729410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634811" />
-    <state width="1320" height="190" key="GridCell.Tab.2.right" timestamp="1577024634813">
+    <state width="1320" height="190" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729410" />
+    <state width="1320" height="190" key="GridCell.Tab.2.right" timestamp="1577027729410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="190" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634813" />
+    <state width="1320" height="190" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577027729410" />
     <state width="1320" height="190" key="GridCell.Tab.3.bottom" timestamp="1577024606052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -345,57 +366,57 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/RegistrationServlet.java</url>
           <line>33</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
           <line>38</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
           <line>47</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>41</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>42</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>43</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>44</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>45</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>46</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
           <line>48</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>

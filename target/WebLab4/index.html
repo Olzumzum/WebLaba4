@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <!-- connect JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- connect JQuery ui -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet"
+          type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/tipe_of_the_day.css">
+    <link rel="stylesheet" href="css/navigation_style.css">
+    <link rel="stylesheet" href="css/footer_menu.css">
+    <script type="text/javascript" src="js/loaderMenu.js"></script>
+    <title> Tasty House </title>
+
+</head>
+<body>
+
+<!-- Header -->
+<header class="header ">
+    <div class="inner clearfix">
+        <img src="images/logo/logoNew.png" alt="Tasty House" class="logo">
+
+        <!--Меню -->
+        <nav>
+            <ul class="topmenu">
+                <li>
+                    <a href="index.html" class="item_nav">Главная</a>
+                </li>
+                <li>
+                    <a href="cake_page.jsp" class="item_nav">Торты и пирожные</a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#"> Донаты</a>
+                        </li>
+                        <li>
+                            <a href="#"> Макаруны </a>
+                        </li>
+                        <li>
+                            <a href="#"> Пирожные</a>
+                        </li>
+                        <li>
+                            <a href="#"> Торты</a>
+                        </li>
+                        <li>
+                            <a href="#"> Чизкейки </a>
+                        </li>
+                        <li>
+                            <a href="#"> Эклеры </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="bakery_page.html" class="item_nav">Выпечка</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#"> Корзинки </a>
+                        </li>
+                        <li>
+                            <a href="#"> Круасаны </a>
+                        </li>
+                        <li>
+                            <a href="#"> Печенье </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="homemade_ice_cream_page.html" class="item_nav">Домашнее морожное</a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#"> Фруктовый лед </a>
+                        </li>
+                        <li>
+                            <a href="#"> Брикеты </a>
+                        </li>
+                        <li>
+                            <a href="#"> Рожки </a>
+                        </li>
+                        <li>
+                            <a href="#"> Стаканчики </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="authorization.html" class="item_nav">Войти</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <!-- баннер -->
+    <div class="inner_content">
+        <div class="inner_content_phone">
+            <h1>8-800-251-11-60</h1>
+            <h2>Заказать доставку</h2>
+        </div>
+        <div class="inner_content_text">
+            <h1 class="inner_title">Полезные десерты без сахара</h1>
+            <h2 class="inner_subtitle">Созданы помогать вам быть в форме</h2>
+
+            <div class="btn_buy">
+                <a href="#" class="title_btn">Начать покупку</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="tip_cotainer">
+
+        <div class="tip_of_the_day">
+            <span id="day_of_text" type="text">fffff</span>
+        </div>
+    </div>
+
+</header>
+
+<!-- Иконки преимущества десертов -->
+<section>
+    <div class="container">
+        <div class="title_advantages advantage_title">
+            <h2>Полезные десерты</h2>
+        </div>
+
+        <div class="advantage">
+            <div class="advantage_item">
+                <img src="images/icon/icon_sugarless.png" class="image_item">
+                <h3> Без сахара</h3>
+                <h4>Только натуральные подсластители: сиропы агавы и топинамбура, пекмез, стевия </h4>
+            </div>
+            <div class="advantage_item">
+                <img src="images/icon/icon_gluten_free.png" class="image_item">
+                <h3>Без глютена</h3>
+                <h4>Только ореховая, гречневая, нутовая, кукурузная, рисовая мука</h4>
+            </div>
+            <div class="advantage_item">
+                <img src="images/icon/icon_no_chemistry.png" class="image_item">
+                <h3>Без химии</h3>
+                <h4>Только натуральные растительные ингредиенты</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Банер заказа тортов -->
+<section>
+    <div class="container">
+        <div class="custom_cake_background">
+            <div class="custom_cake">
+                <h1 class="custom_cake_title">Торт на заказ</h1>
+                <h2 class="custom_cake_subtitle">Мы приготовим специально для вас торт из 100% натуральных растительных
+                    ингредиентов, БЕЗ САХАРА И ГЛЮТЕНА</h2>
+                <div class="btn_custom_cake">
+                    <a href="#" class="title_btn">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Меню в виде больших кнопок -->
+<section>
+    <div class="container">
+        <div class="btn_menu">
+            <a href="cake_page.jsp" class="btn_menu_item">
+                <img src="images/icon/icon_cake.png" class="image_item">
+                <h3>Торты и пирожные</h3>
+            </a>
+
+            <a href="bakery_page.html" class="btn_menu_item">
+                <img src="images/icon/icon_bakery.png" class="image_item">
+                <h3>Выпечка</h3>
+            </a>
+
+            <a href="homemade_ice_cream_page.html" class="btn_menu_item">
+                <img src="images/icon/icon_ice_cream.png" class="image_item">
+                <h3>Домашнее мороженое</h3>
+            </a>
+
+            <a href="#" class="btn_menu_item">
+                <img src="images/icon/icon_stock.png" class="image_item">
+                <h3>Акции</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Контейнер для нижнего меню -->
+<div id="footerMenu"></div>
+</body>
+
+<script src="js/tipeOfTheDay.js"></script>
+</html>
