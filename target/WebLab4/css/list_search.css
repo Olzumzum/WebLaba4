@@ -1,0 +1,12 @@
+.search {
+    float: right;
+    margin: 20px;
+}
+#search_field {
+    height: 30px;
+    font-size: 18px;
+}
+
+#search_button {
+    font-size: 20px;
+}

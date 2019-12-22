@@ -1,0 +1,53 @@
+.inner {
+    width: 96%;
+    padding-left: 3%;
+    padding-right: 10%;
+    padding-bottom: 25px;
+
+    background: rgba(47, 8, 8, 0.1);
+}
+
+header {
+    width: 100%;
+    clear: both;
+
+    background: #2f0808;
+    font-family: 'Montserrat-Italic', sans-serif;
+}
+
+.inner {
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+
+    float: left;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 18px;
+    padding-right: 30px;
+
+    float: right;
+    display: block;
+}
+
+.item_nav {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+.item_nav:hover {
+    color: #fef7a9;
+}

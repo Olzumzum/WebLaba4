@@ -1,0 +1,25 @@
+/*Блок совет дня на баннере */
+.tip_cotainer {
+    display: block;
+
+    text-align: center;
+}
+
+.tip_of_the_day {
+    width: 350px;
+    height: 50px;
+    padding: 30px;
+    margin-right: 10px;
+
+    float: right;
+    background-color: rgba(0, 0, 0, .5);
+
+
+}
+
+#day_of_text {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+

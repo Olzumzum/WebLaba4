@@ -1,0 +1,37 @@
+/*подменю */
+.submenu {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 60px;
+    float: left;
+}
+
+.title_submenu {
+    margin: 0 auto;
+
+    font-size: 28px;
+    color: #a30f2c;
+}
+
+.title_submenu:hover {
+    color: blueviolet;
+}
+
+.subparagraph_submenu {
+    margin: 5px;
+
+    list-style-type: none;
+}
+
+.submenu_item {
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+ul li:hover #assName {
+    color: #fef7a9;
+}
+
+
+

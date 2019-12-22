@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: 'Montserrat-Italic', sans-serif;
+}
+
+/* Form */
+.container {
+    margin-left: 38%;
+    margin-right: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+
+    text-align: left;
+}
+
+.title_enter {
+    margin-left: 10px;
+    color: #7d2032;
+    font-size: 30px;
+}
+
+/* formats all text labels */
+.subtitle {
+    margin: 10px;
+    padding-left: 20px;
+    color: #130f0f;
+    font-size: 20px;
+}
+
+/* formats all text fields */
+.input_field {
+    height: 25px;
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+    padding-left: 20px;
+
+    border: solid 8px #e6e6e6;
+}
+
+/* button "Registration" */
+.btnSend {
+    width: 330px;
+    height: 70px;
+    margin: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    background: #7d2032;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnSend:hover {
+    color: #fef7a9;
+}
+
+/* login transition form */
+.alternative {
+    width: 400px;
+    padding-left: 35%;
+    padding-right:32%;
+    display: block;
+
+    clear: both;
+}
+
+.return_text {
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+    float: left;
+
+    text-align: left;
+
+}
+
+.return_href {
+    margin: 0;
+    padding: 0;
+
+    float: right;
+}
+
+/* captcha */
+.captcha_container {
+    width: 400px;
+
+    margin-bottom: 0;
+}
+
+.row_captcha {
+    margin-bottom: 10px;
+    display: table;
+}
+
+.text_captcha {
+    margin: 15px;
+    margin-left: 25px;
+    padding: 0;
+    float: left;
+
+    font-size: 15px;
+    color: black;
+}
+
+.field_captcha {
+    width: 120px;
+    margin-right: 0;
+    margin-left: 7px;
+    padding: 0;
+    float: right;
+}
+
+.message_of_email_valid {
+    visibility: hidden;
+    color: red;
+}

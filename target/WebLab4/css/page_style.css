@@ -1,0 +1,69 @@
+/** Стиль для контейнера, содержащего продукцию
+и для каждого элемента продукции*/
+
+/** Общий стиль страницы */
+body {
+    padding: 0;
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    font-family: 'Montserrat-Italic', sans-serif;
+}
+
+.clearfix {
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+/** Стиль контейнера продукции*/
+
+.container {
+    width: 100%;
+
+    display: table;
+}
+
+.content {
+    margin: 10px;
+    padding: 40px;
+    float: right;
+}
+
+.title_content {
+    color: #a30f2c;
+}
+
+.iamge_size {
+    width: 400px;
+    height: 290px;
+}
+
+.row {
+    margin: 10px;
+    display: table-row;
+}
+
+/** Стиль каждого элемента продукции */
+td, th {
+    padding: 10px;
+}
+
+table {
+    text-align: right;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    border-radius:  5px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: bisque;
+}
+tr:nth-of-type(even) {
+    background-color: white;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <!-- connect JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- connect JQuery ui -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/authorization_style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Autorization Tasty House</title>
+
+</head>
+<body>
+
+<form id="form" class="container" action="AuthorizationServlet" name="autoriz" method="post">
+
+    <h1 class="title_enter">Вход</h1>
+
+    <h3 class="subtitle">e-mail</h3>
+    <input type="email" name="email" placeholder="Введите email" id="email" class="input_field" required>
+
+    <h3 class="subtitle">пароль</h3>
+    <input type="password" name="password" placeholder="Введите пароль" id="password" class="input_field" required>
+
+    <input type="submit" id="button" name="button" class="btnSend"  value="Войти"
+           onclick="valid(document.getElementById('form'))">
+
+</form>
+
+<div class="alternative">
+    <h3 class="subtitle return_text"> Если вы еще не зарегистрированы</h3>
+    <a href="registration.html" class="subtitle return_href"> Регистрация </a>
+</div>
+
+<!-- форма для диалога о несоответствии введенных данных -->
+<form>
+    <div id="dialog" title="Ошибка авторизации">
+        <p> Неверный логин или пароль</p>
+    </div>
+</form>
+</body>
+
+<script src="js/authorization.js"></script>
+<script src="js/dialogOpeningSetting.js"></script>
+
+</html>

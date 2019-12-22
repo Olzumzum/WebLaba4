@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration for TastyHouse</title>
+    <!-- connect JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- connect JQuery ui -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet"
+          type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/authorization_style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/registration.js"></script>
+    <script src="js/captcha.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/dialogOpeningSetting.js"></script>
+</head>
+<body>
+
+<form id="form" class="container" action="RegistrationServlet" method="post" name="autoriz">
+
+    <h1 class="title_enter">Регистация</h1>
+    <h3 class="subtitle">e-mail</h3>
+    <input type="email" name="email" placeholder="Введите email" id="email" class="input_field" required
+    onchange="checkUserEmail()">
+
+    <span id="message_of_email_valid" class="message_of_email_valid"> Пользователь с такой почтой уже существует</span>
+
+    <h4 class="subtitle">пароль</h4>
+    <input type="password" name="password" placeholder="Введите пароль" id="password" class="input_field" required>
+
+    <h4 class="subtitle">повторите пароль</h4>
+    <input type="password" name="repeat_password" placeholder="Введите пароль еще раз" id="repeat_password"
+           class="input_field" required>
+
+    <!--CAPTCHA -->
+    <div class="captcha_container">
+        <h4 class = "subtitle" > Введите сумму чисел</h4>
+        <div class="row_captcha">
+
+            <span id='aspm' class="text_captcha"></span>
+            <!-- Скрытое поле для проверки введенной суммы -->
+            <input id='md5' type="hidden">
+            <input id="userSummAB" type="text" name="captcha" value size="8"
+                   class="field_captcha input_field" required>
+        </div>
+    </div>
+
+    <input type="submit" name="button" class="btnSend" value="Зарегистрироваться"
+           onclick="registration(document.getElementById('form'))">
+
+</form>
+
+<div class="alternative">
+    <h3 class="subtitle return_text"> Вернуться к авторизации </h3>
+    <a href="authorization.html" class="subtitle return_href registration_button"> Войти </a>
+</div>
+
+<!-- Форма для диалога о несоответствии введенных данных -->
+<form>
+    <div id="dialog" title="Ошибка авторизации">
+        <p> Пароли не одинаковые </p>
+    </div>
+</form>
+
+<!-- Форма успешного завершения регистрации -->
+<form>
+    <div id="succsess_dialog" title="Регистрация завершена успешно">
+        <p> Вы зарегистрирвоались </p>
+    </div>
+</form>
+
+<!-- Форма диалога, сообщающего о неверно введенной капче -->
+<form>
+    <div id="capcha_dialog" title="Контрольная сумма">
+        <p> Контрольная сумма введена неверно! </p>
+    </div>
+</form>
+</body>
+
+<!--Скрипт для отображения контрольной суммы капчи -->
+<script type="text/javascript">
+    showExpression();
+</script>
+
+<script type="text/javascript" src="js/checkUserEmail.js"></script>
+</html>

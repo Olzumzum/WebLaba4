@@ -1,0 +1,263 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+
+	font-family: 'Montserrat-Italic', sans-serif;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+
+	clear: both;
+}
+
+.image_item {
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+header {
+	background: url(../images/header_image.jpg) no-repeat top/cover;
+	
+	padding-bottom: 300px;
+
+	
+}
+
+.container {
+
+}
+
+.inner {
+	width: 86%;
+	padding-left: 3%;
+	padding-right: 10%;
+	padding-bottom: 25px;
+
+	background-color:rgba(47, 8, 8,.1);
+}
+
+/*Logo */
+.logo {
+	width: 150px;
+	height: 80px;
+	padding: 10px;
+
+	float: left;
+}
+
+
+
+/* Текст на беннере */
+
+/* Телефон на баннере */
+
+.inner_content_phone {
+	width: 25%;
+	height: 100px;
+	float: right;
+	right: 0;
+	margin-top: 50px;
+	padding: 20px;
+	padding-right: 40px;
+
+
+	
+	text-align: center;
+	background-color:rgba(0,0,0,.2);
+
+}
+
+.inner_content_phone h1 {
+	margin: 0;
+	padding-top: 20px;
+	font-size: 34px;
+	color: white;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
+.inner_content_phone h2 {
+	margin: 0;
+
+	font-size: 18px;
+	color: #e4d4d4;
+}
+
+/* Рекламный текст на баннере */
+
+.inner_content_text {
+	padding-top: 30px;
+	margin-left: 35px;
+	width: 50%;
+	clear: both;
+
+	color: white;
+	text-align: center;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
+.inner_title {
+	margin: 5px ;
+	margin-bottom: 0;
+	padding: 0;
+
+	font-size: 38px;
+}
+
+.inner_subtitle {
+	margin: 5px;
+	margin-bottom: 30px;
+	padding: 0;
+
+	font-size: 24px;
+}
+/* кнопка начала покупки */
+.btn_buy{
+	margin: 0 auto;
+	height: 80px;
+	width: 60%;
+	
+	background: #7d2032;
+	border-radius: 3px;	
+}
+
+.title_btn:hover {
+	color: #fef7a9;
+}
+
+.title_btn {
+	display: inline-block;
+	margin-top: 30px;
+
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*Блок с преимуществами выпечки */
+
+.advantage {
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+
+.title_advantages {
+	margin: 53px;
+
+	color: #7d2032;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Lobster-Regular', cursive;
+}
+
+.advantage_title {
+	font-size: 40pt;
+}
+
+.advantage_item {
+	width: 270px;
+	margin: 70px;
+	margin-top: 30px;
+	margin-bottom: 69px;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.advantage_item h3 {
+	font-weight: bold;
+}
+
+.advantage_item h4 {
+	font-weight: lighter;
+}
+
+/* Баннер торта на заказ */
+.custom_cake_background {
+	width: 100%;
+	height: 679px;
+	display: inline-block;
+	
+	background: url(../images/image_zakaz.jpg) no-repeat top/cover;
+}
+
+.custom_cake {
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding-bottom: 10%;
+
+	background-color:rgba(255,255,255,.5);
+	text-align: center;
+	font-family: 'PoiretOne-Regular', serif;
+}
+
+.custom_cake_title{
+	padding-top: 237px;
+
+	color:#4c7d3c;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.custom_cake_subtitle {
+	margin-right: 30px;
+	margin-left: 30px;	
+	padding-bottom: 20px;
+
+	color: #752130;
+	font-size: 24px;
+	font-weight: lighter;
+	font-style: oblique;
+}
+
+.btn_custom_cake {
+	margin: 0 auto;
+	height: 80px;
+	width: 40%;
+
+	background: #a60123;
+	border-radius: 3px;
+	font-size: 25px;
+}
+
+/*Кнопочное меню на странице */
+
+.btn_menu {
+	display: flex;
+	font-family: 'PoiretOne-Regular', serif;
+	-webkit-text-stroke-width: 0.3px;
+	-webkit-text-stroke-color: black;
+}
+
+.btn_menu_item {
+	width: 225px;
+	height: 251px;
+	margin: 37px auto;
+	padding: 40px;
+
+	background: #7d2032;
+
+	text-align: center;
+	font-size: 19px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn_menu_item:hover {
+	color: #fef7a9;
+}
+
+
