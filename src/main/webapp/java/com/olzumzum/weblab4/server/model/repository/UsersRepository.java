@@ -10,10 +10,7 @@ import java.util.List;
 public class UsersRepository {
 
     public static void insert(User user){
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-        session.getTransaction().begin();
-        session.persist(user);
-        session.getTransaction().commit();
+
     }
 
     public static void update(User user){

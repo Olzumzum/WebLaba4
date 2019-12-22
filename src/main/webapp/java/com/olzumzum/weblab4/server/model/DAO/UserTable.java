@@ -3,13 +3,16 @@ package com.olzumzum.weblab4.server.model.DAO;
 
 import com.olzumzum.weblab4.server.model.HibernateUtil;
 import com.olzumzum.weblab4.server.model.entities.User;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 
+import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.sql.Connection;
 import java.sql.Statement;
+import java.util.List;
 
 /**
  * Класс осуществляет работу с таблицей пользователей
@@ -35,12 +38,15 @@ public class UserTable  {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.getTransaction().begin();
 
-        CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
-        CriteriaQuery userCriteriaQuery = criteriaBuilder.createQuery(User.class);
-        Root<User> userRoot = userCriteriaQuery.from(User.class);
-        userCriteriaQuery.select(userRoot);
-        session.createQuery(userCriteriaQuery).getResultList();
-        return true;
+        Query query = session.createQuery("from User U where U.emailUser = :paramEmail and U.passwordUser = :paramPassword");
+        query.setParameter("paramEmail", user.getEmailUser());
+        query.setParameter("paramPassword", user.getPasswordUser());
+        List userList = query.getResultList();
+
+        if(userList != null && userList.size() > 0)
+            return true;
+
+        return false;
     }
 
     /**
@@ -48,31 +54,18 @@ public class UserTable  {
      * внесение новой записи в таблицу Users
      * @param user
      */
-//    public void insetUserRecord(User user) {
-//        DbConnection db = new DbConnection();
-//        Connection connection = db.connect();
-//
-//        String email = user.getEmailUser();
-//        String password = user.getPasswordUser();
-//
-//        try {
-//            Statement statement = connection.createStatement();
-//            statement.executeUpdate("insert into Users(email_user, password_user, role_id) " +
-//                    "value ('"+ email + "', '" + password + "', '" + ROLE_ID + "');");
-//
-//            connection.close();
-//            db.closeConnection();
-//
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
-//    /** возвращает роль пользователя */
-//    public String getUserRole(){
-//        return userRole;
-//    }
-//
+    public void insetUserRecord(User user) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.getTransaction().begin();
+        session.persist(user);
+        session.getTransaction().commit();
+    }
+
+    /** возвращает роль пользователя */
+    public String getUserRole(){
+        return userRole;
+    }
+
 //    public boolean getUserEmail(String userRole){
 //        DbConnection dbConnection = new DbConnection();
 //        Connection connection = dbConnection.connect();
