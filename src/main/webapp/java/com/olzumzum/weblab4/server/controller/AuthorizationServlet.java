@@ -39,17 +39,17 @@ public class AuthorizationServlet extends HttpServlet {
         if (userTable.searchUserInTable(user)) {
             System.out.println("Пользователь успешно авторизован");
             HttpSession session = req.getSession();
-//
-//            /** filling in user session data */
-//            session.setAttribute("email", emailForm);
-//            session.setAttribute("password", passwordForm);
-//
-//            /**getting user role information and session filling */
-//            String userRole = userTable.getUserRole();
-//            session.setAttribute("userRole",userRole);
-//
-//            /** redirect to authorized user page */
-//            req.getRequestDispatcher("/Authorization.jsp").forward(req, resp);
+
+            /** filling in user session data */
+            session.setAttribute("email", emailForm);
+            session.setAttribute("password", passwordForm);
+
+            /**getting user role information and session filling */
+            String userRole = userTable.getUserRole();
+            session.setAttribute("userRole",userRole);
+
+            /** redirect to authorized user page */
+            req.getRequestDispatcher("/Authorization.jsp").forward(req, resp);
         }
         else {
             /** redirect to login page */

@@ -7,12 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d496744-72b2-42ea-87d3-0ab3b580e457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footerMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/mainMenu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Authorization.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Authorization.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/Authorization.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/Authorization.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/WEB-INF/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebLab4/java/com/olzumzum/weblab4/server/model/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/controller/AuthorizationServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/DAO/UserTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/olzumzum/weblab4/server/model/repository/UsersRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +232,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576986122077</updated>
-      <workItem from="1576986128043" duration="19536000" />
+      <workItem from="1576986128043" duration="20719000" />
     </task>
     <servers />
   </component>
@@ -236,10 +248,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1577008439454" />
-    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577013493980">
+    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577024611929">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577013493980" />
+    <state x="451" y="210" width="906" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577024611929" />
     <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1577011838480">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -252,70 +264,70 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577008935954" />
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom" timestamp="1577023049920">
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom" timestamp="1577024634803">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049920" />
-    <state width="1320" height="338" key="GridCell.Tab.0.center" timestamp="1577023049919">
+    <state width="1320" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634803" />
+    <state width="1320" height="190" key="GridCell.Tab.0.center" timestamp="1577024634800">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049919" />
-    <state width="1320" height="338" key="GridCell.Tab.0.left" timestamp="1577023049919">
+    <state width="1320" height="190" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634800" />
+    <state width="1320" height="190" key="GridCell.Tab.0.left" timestamp="1577024634798">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049919" />
-    <state width="1320" height="338" key="GridCell.Tab.0.right" timestamp="1577023049919">
+    <state width="1320" height="190" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634798" />
+    <state width="1320" height="190" key="GridCell.Tab.0.right" timestamp="1577024634801">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049919" />
-    <state width="1320" height="338" key="GridCell.Tab.1.bottom" timestamp="1577023049921">
+    <state width="1320" height="190" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634801" />
+    <state width="1320" height="190" key="GridCell.Tab.1.bottom" timestamp="1577024634808">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049921" />
-    <state width="1320" height="338" key="GridCell.Tab.1.center" timestamp="1577023049920">
+    <state width="1320" height="190" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634808" />
+    <state width="1320" height="190" key="GridCell.Tab.1.center" timestamp="1577024634806">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049920" />
-    <state width="1320" height="338" key="GridCell.Tab.1.left" timestamp="1577023049920">
+    <state width="1320" height="190" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634806" />
+    <state width="1320" height="190" key="GridCell.Tab.1.left" timestamp="1577024634804">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049920" />
-    <state width="1320" height="338" key="GridCell.Tab.1.right" timestamp="1577023049921">
+    <state width="1320" height="190" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634804" />
+    <state width="1320" height="190" key="GridCell.Tab.1.right" timestamp="1577024634807">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049921" />
-    <state width="1320" height="338" key="GridCell.Tab.2.bottom" timestamp="1577023049477">
+    <state width="1320" height="190" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634807" />
+    <state width="1320" height="190" key="GridCell.Tab.2.bottom" timestamp="1577024634814">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049477" />
-    <state width="1320" height="338" key="GridCell.Tab.2.center" timestamp="1577023049476">
+    <state width="1320" height="190" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634814" />
+    <state width="1320" height="190" key="GridCell.Tab.2.center" timestamp="1577024634812">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049476" />
-    <state width="1320" height="338" key="GridCell.Tab.2.left" timestamp="1577023049476">
+    <state width="1320" height="190" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634812" />
+    <state width="1320" height="190" key="GridCell.Tab.2.left" timestamp="1577024634811">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049476" />
-    <state width="1320" height="338" key="GridCell.Tab.2.right" timestamp="1577023049477">
+    <state width="1320" height="190" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634811" />
+    <state width="1320" height="190" key="GridCell.Tab.2.right" timestamp="1577024634813">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049477" />
-    <state width="1320" height="338" key="GridCell.Tab.3.bottom" timestamp="1577023049480">
+    <state width="1320" height="190" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024634813" />
+    <state width="1320" height="190" key="GridCell.Tab.3.bottom" timestamp="1577024606052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.3.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049480" />
-    <state width="1320" height="338" key="GridCell.Tab.3.center" timestamp="1577023049478">
+    <state width="1320" height="190" key="GridCell.Tab.3.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577024606052" />
+    <state width="1320" height="190" key="GridCell.Tab.3.center" timestamp="1577024606051">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.3.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049478" />
-    <state width="1320" height="338" key="GridCell.Tab.3.left" timestamp="1577023049478">
+    <state width="1320" height="190" key="GridCell.Tab.3.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577024606051" />
+    <state width="1320" height="190" key="GridCell.Tab.3.left" timestamp="1577024606051">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.3.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049478" />
-    <state width="1320" height="338" key="GridCell.Tab.3.right" timestamp="1577023049479">
+    <state width="1320" height="190" key="GridCell.Tab.3.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577024606051" />
+    <state width="1320" height="190" key="GridCell.Tab.3.right" timestamp="1577024606052">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.3.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577023049479" />
+    <state width="1320" height="190" key="GridCell.Tab.3.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577024606052" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1577000917880">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -348,39 +360,44 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>41</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>43</line>
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>45</line>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/model/DAO/UserTable.java</url>
           <line>46</line>
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/java/com/olzumzum/weblab4/server/controller/AuthorizationServlet.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

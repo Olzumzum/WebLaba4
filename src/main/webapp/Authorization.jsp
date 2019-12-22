@@ -16,7 +16,7 @@
 <section class="information_persan">
     <h1> Добро пожаловать !</h1>
     <!-- Заполнение JSP bean -->
-    <jsp:useBean id="user" class="model.entities.User" scope="session"/>
+    <jsp:useBean id="user" class="com.olzumzum.weblab4.server.model.entities.User" scope="session"/>
     <%
         String emailUser = request.getParameter("email");
         String passwordUser = request.getParameter("password");
