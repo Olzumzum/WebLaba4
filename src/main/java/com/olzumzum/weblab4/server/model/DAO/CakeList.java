@@ -67,7 +67,7 @@ public class CakeList {
         q.setParameter("paramCrit", criterion);
         int assortId = (int) q.getResultList().get(0);
 
-        Query q2 = session.createQuery("from Cake C where C.itemProductId = :paramProdId");
+        Query q2 = session.createQuery("from Cake C where C.assortmentCakeId = :paramProdId");
         q2.setParameter("paramProdId", assortId);
         List list = q2.getResultList();
 
