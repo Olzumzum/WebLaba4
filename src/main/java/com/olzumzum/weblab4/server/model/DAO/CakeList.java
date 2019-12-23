@@ -1,18 +1,11 @@
 package com.olzumzum.weblab4.server.model.DAO;
 
 import com.olzumzum.weblab4.server.model.HibernateUtil;
-import com.olzumzum.weblab4.server.model.entities.AssortmentCake;
 import com.olzumzum.weblab4.server.model.entities.Cake;
 import com.olzumzum.weblab4.server.model.entities.ItemProduct;
 import org.hibernate.Session;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.Query;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,32 +63,21 @@ public class CakeList {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.getTransaction().begin();
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("ru.easyjava.data.jpa.hibernate");
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
-        entityManager.getTransaction(). begin();
+        Query q = session.createQuery("select AC.assortment_cake_id from AssortmentCake AC where AC.assortment_cake_name = :paramCrit");
+        q.setParameter("paramCrit", criterion);
+        int assortId = (int) q.getResultList().get(0);
 
-        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
-        CriteriaQuery criteriaQuery = criteriaBuilder.createQuery(Cake.class);
-        Root<Cake> rootCake = criteriaQuery.from(Cake.class);
-        criteriaQuery.select(rootCake);
+        Query q2 = session.createQuery("from Cake C where C.itemProductId = :paramProdId");
+        q2.setParameter("paramProdId", assortId);
+        List list = q2.getResultList();
 
-        CriteriaQuery criteriaQuery1 = criteriaBuilder.createQuery(AssortmentCake.class);
-        Root rootAssort = criteriaQuery1.from(AssortmentCake.class);
-        criteriaQuery1.select(rootAssort);
-
-        criteriaQuery.where(criteriaBuilder.equal(rootAssort.get(criterion).get(getCakesAssortmentCriterion())))
-
-        /** получить список всех тортов */
-        Query query = session.createQuery("from Cake");
-        Query q = query.fr
-      //  query.setParameter("assortCrit", criterion);
-        List list = query.getResultList();
-
-        /** список для данных каждого торта */
-        List<ItemProduct> mItemProductList = new ArrayList<>();
-
+        List mItemProductList = new ArrayList<>();
         session.getTransaction().commit();
-        return list;
+
+        mItemProductList = getItemProductList(list, mItemProductList);
+
+
+           return mItemProductList;
     }
 
     /**
@@ -121,12 +103,12 @@ public class CakeList {
         q.setParameter("searchCrit", searchCriterion);
         List l = q.getResultList();
 
-        for (int i = 0; i < l.size(); i++){
+        for (int i = 0; i < l.size(); i++) {
             mItemProductList.add((ItemProduct) l.get(0));
         }
         session.getTransaction().commit();
         /** получить данные о тортах */
-       // mItemProductList = getItemProductList(list, mItemProductList);
+        // mItemProductList = getItemProductList(list, mItemProductList);
 
         return mItemProductList;
     }
